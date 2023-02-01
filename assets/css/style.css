@@ -19738,3 +19738,10 @@ h5 {
 .white-version .backto-top > div::after {
   background: var(--gradient-black-hover);
 }
+
+
+/* update */
+.quote {
+  font-size: 35px !important;
+  font-family: Apple Chancery, cursive!important;
+}
