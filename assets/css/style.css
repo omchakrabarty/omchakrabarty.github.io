@@ -19777,3 +19777,38 @@ h3.year {
     margin: 0;
     font-size: larger;
 }
+
+p.paper {
+  margin: 0;
+}
+
+p.paper a {
+  font-family: ui-sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  color: midnightblue;
+}
+
+p.paper-description {
+  margin: 0;
+  font-family: ui-sans-serif;
+  font-size: smaller;
+  color: black;
+}
+
+p.paper_project {
+  margin: 0;
+}
+
+p.paper_project a {
+  margin: 0;
+  color: orangered;
+  font-size: small;
+}
+
+p.author {
+  margin: 0;
+  font-family: ui-sans-serif;
+  font-size: smaller;
+  color: black;
+}
