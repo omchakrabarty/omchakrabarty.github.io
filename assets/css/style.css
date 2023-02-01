@@ -19745,3 +19745,30 @@ h5 {
   font-size: 35px !important;
   font-family: Apple Chancery, cursive!important;
 }
+
+p.description {
+    font-family: ui-sans-serif;
+    font-size: large;
+    color: darkslategray;
+}
+
+p.news {
+  margin: 0px !important;
+  font-family: ui-sans-serif;
+  font-size: large;
+  color: midnightblue;
+}
+
+h3.year {
+  color: sienna;
+  font-size: x-large;
+  margin-top: 1%;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(120, 95, 95);
+  border-radius: 50%;
+  display: inline-block;
+}
