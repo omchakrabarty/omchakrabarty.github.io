@@ -19772,3 +19772,8 @@ h3.year {
   border-radius: 50%;
   display: inline-block;
 }
+
+.domain {
+    margin: 0;
+    font-size: larger;
+}
