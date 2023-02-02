@@ -240,18 +240,18 @@
                         <div class="col-lg-10 col-md-10 col-sm-12">
                             <!-- Single Paper -->
                             <p class="paper"><span class="dot"></span> <a href="#">AnyDA: Anytime Domain Adaptation</a></p>
-                            <p class="author"><b>A. Singh, O. Chakraborty, A. Varshney, R. Panda, R. Feris, K. Saenko, A. Das;  Computer Vision and Pattern Recognition, 2021</b>.</p>
+                            <p class="author"><b>Omprakash Chakraborty</b>, Aadarsh Sahoo, Rameswar Panda, Abir Das;  <b>International Conference on Learning Representations (ICLR)</b>, 2023.</p>
                             <p class="paper_project">
-                                <a href="https://cvir.github.io/TCL/" target="_blank">[Project]</a>
-                                <a href="https://github.com/CVIR/TCL" target="_blank">[Code]</a>
-                                <a href="https://cse.iitkgp.ac.in/~adas/papers/TCL_poster.pdf" target="_blank">[Poster]</a>
-                                <a href="https://youtu.be/_qIYu3EU2kY" target="_blank">[video presentation]</a>
+                                <!a href="https://cvir.github.io/TCL/" target="_blank">[Project]</a>
+                                <!a href="https://github.com/CVIR/TCL" target="_blank">[Code]</a>
+                                <!a href="https://cse.iitkgp.ac.in/~adas/papers/TCL_poster.pdf" target="_blank">[Poster]</a>
+                                <!a href="https://youtu.be/_qIYu3EU2kY" target="_blank">[video presentation]</a>
                             <div class="row">
                                 <div class="col-lg-3 col-md-7 col-sm-12">
                                     <img src="./assets/images/papers/TCL_Framework.png" style="height: -webkit-fill-available;" alt="">
                                 </div>
                                 <div class="col-lg-9 col-md-5 col-sm-12">
-                                    <p class="paper-description">Success of Deep Learning models is critically dependent on training with large datasets requiring tedious human annotation. Annotating videos is particularly difficult as they need to be watched till the end. Starting with only a handful of labeled videos, we address the semi-supervised video action recognition problem by leveraging on the rich supervisory information: 'time' that is present in otherwise unlabeled pool of videos. We propose to learn a two-pathway Temporal Contrastive Learning (TCL) model where the similarity between representations of the same video at two different speeds are maximized while the similarity between different videos played at different speeds are minimized. With this simple yet effective strategy of manipulating video playbackrates, we considerably outperform video extensions of sophisticated state-of-the-art semi-supervised image recognition methods across multiple diverse benchmark datasets and network architectures.</p>
+                                    <p class="paper-description">Unsupervised domain adaptation is an open and challenging problem in computer vision. While existing research shows encouraging results in addressing cross-domain distribution shift on common benchmarks, they are often limited to testing under a specific target setting. This can limit their impact for many real-world applications that present different resource constraints. In this paper, we introduce a simple yet effective framework for anytime domain adaptation that is executable with dynamic resource constraints to achieve accuracy-efficiency trade-offs under domain-shifts. We achieve this by training a single shared network using both labeled source and unlabeled data, with switchable depth, width and input resolutions on the fly to enable testing under a wide range of computation budgets. Starting with a teacher network trained from a label-rich source domain, we utilize bootstrapped recursive knowledge distillation as a nexus between source and target domains to jointly train the student network with switchable subnetworks. Extensive experiments on several diverse benchmark datasets well demonstrate the superiority of our proposed approach over state-of-the-art methods.</p>
                                 </div>
                             </div>
                             <!-- End Paper -->
@@ -265,7 +265,7 @@
                         <div class="col-lg-10 col-md-10 col-sm-12">
                             <!-- Single Paper -->
                             <p class="paper"><span class="dot"></span> <a href="https://arxiv.org/pdf/2110.15128.pdf">Semi-Supervised Action Recognition with Temporal Contrastive Learning</a></p>
-                            <p class="author"><b>A. Singh, O. Chakraborty, A. Varshney, R. Panda, R. Feris, K. Saenko, A. Das;  Computer Vision and Pattern Recognition, 2021</b>.</p>
+                            <p class="author"><b>O. Chakraborty</b>, A. Singh, A. Varshney, R. Panda, R. Feris, K. Saenko, A. Das;  <b>Computer Vision and Pattern Recognition</b>, 2021.</p>
                             <p class="paper_project">
                                 <a href="https://cvir.github.io/TCL/" target="_blank">[Project]</a>
                                 <a href="https://github.com/CVIR/TCL" target="_blank">[Code]</a>
@@ -276,7 +276,9 @@
                                     <img src="./assets/images/papers/TCL_Framework.png" style="height: -webkit-fill-available;" alt="">
                                 </div>
                                 <div class="col-lg-9 col-md-5 col-sm-12">
-                                    <p class="paper-description">Success of Deep Learning models is critically dependent on training with large datasets requiring tedious human annotation. Annotating videos is particularly difficult as they need to be watched till the end. Starting with only a handful of labeled videos, we address the semi-supervised video action recognition problem by leveraging on the rich supervisory information: 'time' that is present in otherwise unlabeled pool of videos. We propose to learn a two-pathway Temporal Contrastive Learning (TCL) model where the similarity between representations of the same video at two different speeds are maximized while the similarity between different videos played at different speeds are minimized. With this simple yet effective strategy of manipulating video playbackrates, we considerably outperform video extensions of sophisticated state-of-the-art semi-supervised image recognition methods across multiple diverse benchmark datasets and network architectures.</p>
+                                    <p class="paper-description">Learning to recognize actions from only a handful of labeled videos is a challenging problem due to the scarcity
+                                    of tediously collected activity labels. We approach this problem by learning a two-pathway temporal contrastive model using unlabeled videos at two different speeds leveraging the fact that changing video speed does not change
+                                    an action. Specifically, we propose to maximize the similarity between encoded representations of the same video at two different speeds as well as minimize the similarity between different videos played at different speeds. This way we use the rich supervisory information in terms of ‘time’ that is present in otherwise unsupervised pool of videos. With this simple yet effective strategy of manipulating video playback rates, we considerably outperform video extensions of sophisticated state-of-the-art semi-supervised image recognition methods across multiple diverse benchmark datasets and network architectures. Interestingly, our proposed approach benefits from out-of-domain unlabeled videos showing generalization and robustness. We also perform rigorous ablations and analysis to validate our approach.</p>
                                 </div>
                             </div>
                             <!-- End Paper -->
