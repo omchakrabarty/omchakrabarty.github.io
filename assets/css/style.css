@@ -19812,3 +19812,14 @@ p.author {
   font-size: smaller;
   color: black;
 }
+
+h1.title.quote {
+  font-family: Bahnschrift SemiBold !important;
+  line-height: 100% !important;
+  font-size: 25px !important;
+}
+
+p.f-line {
+  font-size: 30px !important;
+  color: blueviolet;
+}
